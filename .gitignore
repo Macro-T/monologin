@@ -1,7 +1,7 @@
 /node_modules
 
 /vendor
-
+/css/sass/.sass-cache
 /.sass-cache
 
 *.log

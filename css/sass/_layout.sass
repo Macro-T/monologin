@@ -1,6 +1,6 @@
 body
   background: $primary-color
-  color: white
+  color: $black
   font-family: $sans-font-family !important
 
 h1, h2, h3, h4
@@ -15,7 +15,9 @@ h5, h6, em, blockquote
   font-family: $sans-font-family-bold
   font-weight: 500
 
-
+.logo-container
+  max-width: 217px
+  max-height: 217px
 
 .gold
   background:
@@ -25,11 +27,35 @@ h5, h6, em, blockquote
     color: $secondary-color
 
 .card .card-content
-  padding: 2.5em 5em
+  padding: 2.5em 2.5em
 
 .container
   width: 90%
-footer .copy
+
+.copy
   color: rgba(white, 0.4)
   h6
     line-height: 1.4
+
+
+//FORMS
+//
+/* label focus color */
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label
+  color: lighten($primary-color, 15)
+
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=password]:focus
+  border-bottom: 1px solid lighten($primary-color, 15)
+  box-shadow: 0 1px 0 0 lighten($primary-color, 15)
+
+/* valid color */
+.input-field input[type=text].valid, .input-field input[type=password].valid
+  border-bottom: 1px solid lighten($cta-color, 15)
+  box-shadow: 0 1px 0 0 lighten($cta-color, 15)
+
+/* invalid color */
+.input-field input[type=text].invalid,  .input-field input[type=password].invalid
+  border-bottom: 1px solid lighten($error-color, 15)
+  box-shadow: 0 1px 0 0 lighten($error-color, 15)
+

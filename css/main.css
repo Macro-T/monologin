@@ -42,7 +42,7 @@
   font-style: normal; }
 body {
   background: #002855;
-  color: white;
+  color: #333333;
   font-family: "lato", "Open Sans", Arial, sans-serif !important; }
 
 h1, h2, h3, h4 {
@@ -58,6 +58,10 @@ h5, h6, em, blockquote {
   font-family: "latobold", "Open Sans", Arial, sans-serif;
   font-weight: 500; }
 
+.logo-container {
+  max-width: 217px;
+  max-height: 217px; }
+
 .gold {
   background-color: #af841d;
   color: white; }
@@ -65,14 +69,33 @@ h5, h6, em, blockquote {
     color: #af841d; }
 
 .card .card-content {
-  padding: 2.5em 5em; }
+  padding: 2.5em 2.5em; }
 
 .container {
   width: 90%; }
 
-footer .copy {
+.copy {
   color: rgba(255, 255, 255, 0.4); }
-  footer .copy h6 {
+  .copy h6 {
     line-height: 1.4; }
+
+/* label focus color */
+.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label {
+  color: #004ca2; }
+
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=password]:focus {
+  border-bottom: 1px solid #004ca2;
+  box-shadow: 0 1px 0 0 #004ca2; }
+
+/* valid color */
+.input-field input[type=text].valid, .input-field input[type=password].valid {
+  border-bottom: 1px solid #47dc99;
+  box-shadow: 0 1px 0 0 #47dc99; }
+
+/* invalid color */
+.input-field input[type=text].invalid, .input-field input[type=password].invalid {
+  border-bottom: 1px solid #de403d;
+  box-shadow: 0 1px 0 0 #de403d; }
 
 /*# sourceMappingURL=main.css.map */
