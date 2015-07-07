@@ -1,0 +1,52 @@
+{
+  "inject" : {
+    "injectOptions": {
+      "read": false,
+      "ignorePath": "./",
+      "cwd": "./",
+      "relative": true
+    },
+    "wiredepOptions" : {
+      "dir": "./vendor/"
+    }
+  },
+  "server" : {
+    "dev": {
+      "root": "./",
+      "livereload": true,
+      "port": 8000,
+      "fallback": "./index.html"
+    },
+    "dist": {
+      "root": "./dist/",
+      "livereload": true,
+      "port": 8000,
+      "fallback": "./index.html"
+    }
+  },
+  "scripts" : {
+    "jsDir": "./js/**/*.js"
+  },
+  "styles" : {
+    "scssDir": "./css/sass/**/*.scss",
+    "sassDir": "./css/sass/**/*.sass",
+    "cssDir": "./css/**/*.css",
+    "dest": "./css/",
+    "option":{
+      "sass" : {"style" : "expanded"},
+      "autoprefixer": {
+        "browsers": ["last 2 version"],
+        "cascade": false
+      }
+    }
+  },
+  "templates": {
+    "main": "./index.html",
+    "tplDir": "./views/**/*.html",
+    "options": {
+      "root": "./views/",
+      "module": "reservacionescec.templates",
+      "standalone": false
+    }
+  }
+}

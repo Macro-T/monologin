@@ -1,0 +1,41 @@
+{
+  "name": "monologin-oym",
+  "version": "0.0.0",
+  "description": "Sistema de Acceso Monografico",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macro-T/monologin.git"
+  },
+  "keywords": [
+    "Login",
+    "Material Design",
+    "SPA"
+  ],
+  "author": "Misael Taveras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Macro-T/monologin/issues"
+  },
+  "homepage": "https://github.com/Macro-T/monologin#readme",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-angular-templatecache": "^1.6.0",
+    "gulp-autoprefixer": "^2.3.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-if": "^1.2.5",
+    "gulp-inject": "^1.2.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.1",
+    "jshint-stylish": "^2.0.0",
+    "wiredep": "^2.2.2"
+  }
+}

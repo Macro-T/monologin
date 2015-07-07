@@ -1,0 +1,23 @@
+{
+  "name": "monologin-oym",
+  "version": "0.0.0",
+  "authors": [
+    "Macro-T <macrot29@gmail.com>"
+  ],
+  "description": "Sistema de Acceso Monografico",
+  "main": "index.html",
+  "keywords": [
+    "Login",
+    "material",
+    "design"
+  ],
+  "license": "MIT",
+  "homepage": "twitter.com/Macro_T",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
