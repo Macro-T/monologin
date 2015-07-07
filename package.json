@@ -34,8 +34,11 @@
     "gulp-livereload": "^3.8.0",
     "gulp-load-plugins": "^0.10.0",
     "gulp-notify": "^2.2.0",
-    "gulp-sass": "^2.0.1",
+    "gulp-ruby-sass": "^1.0.5",
     "jshint-stylish": "^2.0.0",
     "wiredep": "^2.2.2"
+  },
+  "dependencies": {
+    "gulp-sass": "^2.0.3"
   }
 }

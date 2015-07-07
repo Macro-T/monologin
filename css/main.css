@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'alegreyabold';
+  src: url("../fonts/alegreya-bold-webfont.eot");
+  src: url("../fonts/alegreya-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alegreya-bold-webfont.woff2") format("woff2"), url("../fonts/alegreya-bold-webfont.woff") format("woff"), url("../fonts/alegreya-bold-webfont.ttf") format("truetype"), url("../fonts/alegreya-bold-webfont.svg#alegreyabold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'alegreyaitalic';
+  src: url("../fonts/alegreya-italic-webfont.eot");
+  src: url("../fonts/alegreya-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alegreya-italic-webfont.woff2") format("woff2"), url("../fonts/alegreya-italic-webfont.woff") format("woff"), url("../fonts/alegreya-italic-webfont.ttf") format("truetype"), url("../fonts/alegreya-italic-webfont.svg#alegreyaitalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'alegreya';
+  src: url("../fonts/alegreya-regular-webfont.eot");
+  src: url("../fonts/alegreya-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/alegreya-regular-webfont.woff2") format("woff2"), url("../fonts/alegreya-regular-webfont.woff") format("woff"), url("../fonts/alegreya-regular-webfont.ttf") format("truetype"), url("../fonts/alegreya-regular-webfont.svg#alegreyaregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latobold';
+  src: url("../fonts/lato-bold-webfont.eot");
+  src: url("../fonts/lato-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-bold-webfont.woff2") format("woff2"), url("../fonts/lato-bold-webfont.woff") format("woff"), url("../fonts/lato-bold-webfont.ttf") format("truetype"), url("../fonts/lato-bold-webfont.svg#latobold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'latoitalic';
+  src: url("../fonts/lato-italic-webfont.eot");
+  src: url("../fonts/lato-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-italic-webfont.woff2") format("woff2"), url("../fonts/lato-italic-webfont.woff") format("woff"), url("../fonts/lato-italic-webfont.ttf") format("truetype"), url("../fonts/lato-italic-webfont.svg#latoitalic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: 'latolight';
+  src: url("../fonts/lato-light-webfont.eot");
+  src: url("../fonts/lato-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-light-webfont.woff2") format("woff2"), url("../fonts/lato-light-webfont.woff") format("woff"), url("../fonts/lato-light-webfont.ttf") format("truetype"), url("../fonts/lato-light-webfont.svg#latolight") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'lato';
+  src: url("../fonts/lato-regular-webfont.eot");
+  src: url("../fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato-regular-webfont.woff2") format("woff2"), url("../fonts/lato-regular-webfont.woff") format("woff"), url("../fonts/lato-regular-webfont.ttf") format("truetype"), url("../fonts/lato-regular-webfont.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: #002855;
+  color: white;
+  font-family: "lato", "Open Sans", Arial, sans-serif !important; }
+
+h1, h2, h3, h4 {
+  font-family: "alegreya", Garamond, serif; }
+
+h5, h6, em, blockquote {
+  font-family: "latolight", "Open Sans", Arial, sans-serif;
+  font-weight: 100; }
+
+#mainForm .btn-flat {
+  background-color: #22b573;
+  color: white;
+  font-family: "latobold", "Open Sans", Arial, sans-serif;
+  font-weight: 500; }
+
+.gold {
+  background-color: #af841d;
+  color: white; }
+  .gold-text {
+    color: #af841d; }
+
+.card .card-content {
+  padding: 2.5em 5em; }
+
+.container {
+  width: 90%; }
+
+footer .copy {
+  color: rgba(255, 255, 255, 0.4); }
+  footer .copy h6 {
+    line-height: 1.4; }
+
+/*# sourceMappingURL=main.css.map */

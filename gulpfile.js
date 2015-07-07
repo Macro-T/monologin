@@ -45,7 +45,7 @@ gulp.task('build', ['templates', 'compress', 'copy', 'serveDist']);
  */
 
 gulp.task('styles', function (){
-  gulp.src(configuracion.styles.scssDir)
+  gulp.src(configuracion.styles.sassDir)
           .pipe(plugins.sass(configuracion.styles.option.sass).on('error', plugins.sass.logError))
           .pipe(plugins.autoprefixer(configuracion.styles.option.autoprefixer))
           .pipe(gulp.dest(configuracion.styles.dest));

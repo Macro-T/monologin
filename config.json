@@ -30,7 +30,7 @@
   "styles" : {
     "scssDir": "./css/sass/**/*.scss",
     "sassDir": "./css/sass/**/*.sass",
-    "cssDir": "./css/**/*.css",
+    "cssDir": "./css/main.css",
     "dest": "./css/",
     "option":{
       "sass" : {"style" : "expanded"},
