@@ -61,6 +61,9 @@ h5, h6, em, blockquote {
 .logo-container {
   max-width: 217px;
   max-height: 217px; }
+  @media screen and (max-width: 992px) {
+    .logo-container {
+      margin: 0 auto; } }
 
 .gold {
   background-color: #af841d;
