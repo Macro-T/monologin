@@ -15,7 +15,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css css/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="vendor/materialize/bin/materialize.css" />
+    <!-- <link rel="stylesheet" href="vendor/materialize/bin/materialize.css" /> -->
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css css/main.css -->
@@ -33,7 +33,7 @@
     <header>
         <div class="center brand-logo">
             <div class="logo-container">
-              <img src="img/university_logo.png" class="responsive-img" alt="Universidad Logo">
+                <img src="img/university_logo.png" class="responsive-img" alt="Universidad Logo">
             </div>
         </div>
     </header>
@@ -41,31 +41,42 @@
         <div class="valign-wrapper">
             <div class="valign" style="width: 100%;height:38rem; padding-top: 2rem;">
                 <div class="row">
-                    <div class="col s6 offset-s3">
+                    <div class="col s12 m8 offset-m2 l6 offset-l3">
                         <div class="card hoverable">
                             <div class="card-ribbon center gold">
-                                <h2>Accede al Sistema</h2>
+                                <h2>Sistema de Monográfico</h2>
                             </div>
                             <div class="card-content">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="login-error is-hide">
+                                            <p>El Usuario no tiene Monográfico asignado</p>
+                                        </div>
+                                    </div>
+                                </div>
                                 <form action="#" id="mainForm">
                                     <div class="row">
                                         <div class="input-field col s12">
                                             <label for="matricula">Matricula</label>
-                                            <input type="text" name="matricula" id="matricula" class="validate" required="">
+                                            <input type="text" name="matricula" id="matricula" class="validate" placeholder="15-MITS-1-001" required="">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
                                             <label for="contraseña">Contraseña</label>
-                                            <input type="password" name="contraseña" id="contraseña" class="validate" required="">
+                                            <input type="password" name="contraseña" id="contraseña" class="validate" placeholder="12345" required="">
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <p class="left">
-                                            <input type="checkbox" class="filled-in" id="recuerdame" />
-                                            <label for="recuerdame">Recuerdame</label>
-                                        </p>
-                                        <input type="submit" value="Acceder" class="btn btn-flat right">
+                                        <div class="col s6 ofset-s6">
+                                            <p>
+                                                <input type="checkbox" class="filled-in" id="recuerdame" />
+                                                <label for="recuerdame">Recuerdame</label>
+                                            </p>
+                                        </div>
+                                        <div class="col s6 ofset-s6">
+                                            <input type="submit" value="Acceder" class="btn btn-flat right">
+                                        </div>
                                     </div>
                                 </form>
                             </div>
