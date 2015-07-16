@@ -3,5 +3,6 @@
 /vendor
 /css/sass/.sass-cache/
 /.sass-cache
+.sass-cache
 
 *.log
