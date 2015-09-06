@@ -34,7 +34,7 @@ gulp.task('reload', function (){
 /**
  * Funciones basicas que pueden ser llamadas por Consola via GULP [nombre de la funcion]
  */
-gulp.task('default', ['bowerInject', 'inject', 'watch', 'serve']);
+gulp.task('default', ['bowerInject', 'inject', 'styles', 'watch', 'serve']);
 gulp.task('build', ['templates', 'compress', 'copy', 'serveDist']);
 
 
